@@ -1,0 +1,36 @@
+.header {
+    background-image: url(/img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: "VT323";   
+}
+.header h1{
+    font-size: 90px;
+}
+.header h2{
+    font-size: 50px;
+}
+.avion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+    background-image: url(/img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+@media screen and (max-width: 758px){
+
+    .avion {
+        height: 260px;
+    }
+
+    .imagen-avion {
+        width: 150px;
+    }
+}
